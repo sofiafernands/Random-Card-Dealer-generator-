@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+i<!DOCTYPE html>
 <html>
   <head>
     <meta charset="UTF-8" />
@@ -13,17 +13,34 @@
     <link rel="shortcut icon" href="./4geeks.ico" />
   </head>
   <body>
-    <div class="container-fluid text-center">
-      <h1 class="mt-5">Hello Rigo!</h1>
-      <img src="./rigo-baby.jpg" />
-      <p class="alert alert-warning mt-4">
-        If this text is <b>not</b> centered and <b>yellow</b>, you probably have
-        an error
-      </p>
-      <div class="fixed-bottom p-4">
-        Made with ❤️ by
-        <a href="https://www.4geeksacademy.com">4Geeks Academy</a>
+    <!-- div padre -->
+    <div
+      class="container "
+      style="width:30%; height: 350px; border-radius: 20px; background-color: blanchedalmond;"
+    >
+      <!-- div palo superior izquierdo -->
+      <div id="pinta" style="height: 15%;"></div>
+
+      <!-- div Numero de carta -->
+      <div class="col text-center" style="height:70%;">
+        <p
+          id="cardNumber"
+          style="padding-top:30%; font-size: 80px; font-weight: bold;"
+        ></p>
       </div>
+      <!-- div segundo palo inferior derechp -->
+      <div
+        id="pinta2"
+        style="height: 15%; text-align: right; margin-bottom: 50px;"
+      ></div>
     </div>
+    <button
+      type="button"
+      id="change"
+      class="btn btn-warning"
+      style="margin-left: 10px;"
+    >
+      Change
+    </button>
   </body>
 </html>
